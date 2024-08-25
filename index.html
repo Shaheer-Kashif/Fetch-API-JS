@@ -13,17 +13,13 @@
         <form>
             <div class="amount">
                 <p>Enter Your Amount</p>
-                <input value="100" type="text">
+                <input value="100" type="number">
             </div>
             <div class="dropdown">
                 <div class="from">
                     <div class="select-container">
                         <img src="https://flagsapi.com/US/flat/64.png">
                         <select name="from" class="select-box">
-                            <option value="USD">USD</option>
-                            <option value="INR">INR</option>
-                            <option value="EUR">EUR</option>
-                            <option value="PKR">PKR</option>
                         </select>
                     </div>
                 </div>
@@ -31,19 +27,16 @@
                 <div class="to">
                     <div class="select-container">
                         <img src="https://flagsapi.com/PK/flat/64.png">
-                        <select name="from" class="select-box">
-                            <option value="USD">USD</option>
-                            <option value="INR">INR</option>
-                            <option value="EUR">EUR</option>
-                            <option value="PKR" selected>PKR</option>
+                        <select name="to" class="select-box">
                         </select>
                     </div>
                 </div>
             </div>
-            <div class="msg">1 USD = 276 PKR</div>
-            <button>Submit</button>
+            <div class="msg">Enter Value to Convert.</div>
+            <button>Convert</button>
         </form>
     </div>
-    
+    <script src="codes.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
